@@ -1,0 +1,16 @@
+[2025-09-23 21:54:24,991 test_V_v3.py:341] Device: cuda:0
+[2025-09-23 21:54:25,451 test_V_v3.py:412] Load a_nn from results/4_ann/train_augmented_optimal_control_20250909_142720/checkpoints/checkpoint_best.pth
+[2025-09-23 21:54:30,136 test_V_v3.py:442] Load u_nn from results/1_unn/train_u_20250716_102610/checkpoints/checkpoint_final.pth
+[2025-09-23 21:54:33,014 test_V_v3.py:484] Load w_nn from results/2_wnn/train_value_20250731_101420/checkpoints/checkpoint_best.pth
+[2025-09-23 21:54:33,054 test_V_v3.py:534] V_bound_nn loaded from results/3_vboundnn/train_V_bound_20250805_102414/checkpoints/checkpoint_best.pth
+[2025-09-23 21:54:33,091 test_V_v3.py:585] V_bound_nn loaded from results/from_scratch/5_vnn/debug/train_V_rebound_v2_20250917_192723/second/train_V_rebound_v2_20250921_123631/checkpoints/checkpoint_best.pth
+[2025-09-23 21:54:33,114 test_V_v3.py:593] Using device: cuda:0
+[2025-09-23 21:54:33,114 test_V_v3.py:594] Number of trajectories = 500 -> Total number of data points = 128500
+[2025-09-23 21:54:36,446 test_V_v3.py:630] Partition : n_interior=40803 + n_boundary=87197 + n_terminal=500 -> sample size=128500
+[2025-09-24 02:32:00,794 test_V_v3.py:665] Error measure : 0.018635511362862737 - in percentage : 1.8635511362862738 %
+[2025-09-24 02:32:00,796 test_V_v3.py:666] Formula for the error measure = {[(delta_a + delta_v + delta_b) / n_periods + delta_t] / n_samples} / expected_V_0
+[2025-09-24 02:32:00,796 test_V_v3.py:667]  - Decomposition : delta_t=2.7562355995178223, Delta_b=160.3166961669922, Delta_a=852.8724338989905, Delta_v=375.2681098563935, V_0=-0.877882719039917
+[2025-09-24 02:32:00,796 test_V_v3.py:668]  - Extra info :
+[2025-09-24 02:32:00,796 test_V_v3.py:669]    -- delta_o = 1039.9836411379765
+[2025-09-24 02:32:00,807 test_V_v3.py:670]    -- Boundary : mean = -0.0001123992697102949, min = -0.017709076404571533, max = 0.029959142208099365, std = 0.0024793476331979036
+[2025-09-24 02:32:00,808 test_V_v3.py:671]    -- Terminal : mean = 0.0014870567247271538, min = -0.017709076404571533, max = 0.050348520278930664, std = 0.008398812264204025

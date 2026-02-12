@@ -1,0 +1,56 @@
+{
+    "__comment": "This file contains the parameters of the distribution of different values of the portfolio. For the moment, everything is sampled uniformly, and each field of the current file contains a range for the uniform distribution and a scale factor in order to keep all values around 10^1 for the neural network training and inference parts.",
+    "interest_rate": {
+        "range": [
+            0.01,
+            0.07
+        ],
+        "scale": 1.0
+    },
+    "price": [
+        {
+            "range": [
+                75.0,
+                125.0
+            ],
+            "scale": 0.001
+        },
+        {
+            "range": [
+                120.0,
+                280.0
+            ],
+            "scale": 0.001
+        }
+    ],
+    "quantity": [
+        {
+            "range": [
+                1000.0,
+                2000.0
+            ],
+            "scale": 0.001
+        },
+        {
+            "range": [
+                800.0,
+                1600.0
+            ],
+            "scale": 0.001
+        }
+    ],
+    "cash": {
+        "range": [
+            100000.0,
+            200000.0
+        ],
+        "scale": 1e-06
+    },
+    "liability_ratio": {
+        "range": [
+            0.5,
+            0.8
+        ],
+        "scale": 1e-06
+    }
+}

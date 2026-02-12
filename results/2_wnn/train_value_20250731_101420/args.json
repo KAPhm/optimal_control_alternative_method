@@ -1,0 +1,20 @@
+{
+    "config_unn": "/home/lamsade/lgnecco/kim_optimal_control/results/from_scratch/1_unn/fixed_big_n/train_u_20250716_102610",
+    "config_train": "/home/lamsade/lgnecco/kim_optimal_control/results/from_scratch/2_wnn/20250731_v4/w_v4.json",
+    "results_dir": "/home/lamsade/lgnecco/kim_optimal_control/results/from_scratch/2_wnn/20250731_v4",
+    "seed": 99,
+    "log_level": "INFO",
+    "method": "pinn",
+    "arch": "residual-sin",
+    "norm_type": "identity",
+    "e": 3000,
+    "d": 500,
+    "lambda_start": 0.0,
+    "lambda_end": 0.5,
+    "opt": "adam",
+    "opt_args": "lr:0.0001,weight_decay:0.0000001",
+    "sched": "multistep",
+    "sched_args": null,
+    "config_portfolio": "config/1_from_scratch/0_0_portfolio.json",
+    "config_simulator": "config/1_from_scratch/0_0_dist.json"
+}

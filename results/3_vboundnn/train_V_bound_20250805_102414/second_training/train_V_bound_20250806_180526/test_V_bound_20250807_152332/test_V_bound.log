@@ -1,0 +1,7 @@
+[2025-08-07 15:23:32,864 test_V_bound.py:188] Device: cuda:0
+[2025-08-07 15:23:36,873 test_V_bound.py:241] u_nn loaded from results/from_scratch/1_unn/fixed_big_n/train_u_20250716_102610/checkpoints/checkpoint_final.pth
+[2025-08-07 15:23:36,971 test_V_bound.py:302] V_bound_nn loaded from results/from_scratch/3_vboundnn/20250805/train_V_bound_20250805_102414/second_training/train_V_bound_20250806_180526/checkpoints/checkpoint_best.pth
+[2025-08-07 15:23:39,183 test_V_bound.py:316] Sample size : interior = 384000 - terminal = 1500
+[2025-08-07 19:06:35,118 test_V_bound.py:346] Error measure for V_bound = 0.009276747180060196, equivalent to 0.9276747180060196 %
+[2025-08-07 19:06:35,120 test_V_bound.py:347] Composition of errors (in average): e_Vb = 0.004711054727088836, e_T = 0.0033438261598348618
+[2025-08-07 19:06:35,120 test_V_bound.py:348] Denominator (in average) : Vb_0 = -0.868287205696106 

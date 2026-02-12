@@ -1,0 +1,5 @@
+[2025-08-06 18:09:40,286 test_u_and_w_v4.py:315] Value network loaded from results/from_scratch/2_wnn/20250731_v4/train_value_20250731_101420/checkpoints/checkpoint_best.pth
+[2025-08-06 18:09:42,507 test_u_and_w_v4.py:329] Sample size final: 128000
+[2025-08-07 04:05:33,550 test_u_and_w_v4.py:362] Error measure = 0.11795186251401901, equivalent to 11.795186251401901 %
+[2025-08-07 04:05:33,552 test_u_and_w_v4.py:363] Composition of errors (in average): e_u = 0.005034181289374828, e_w = 0.023033300414681435, g = 2.598169885459356e-05, reg_coeff = 256, e_T = 0.0053709023632109165
+[2025-08-07 04:05:33,553 test_u_and_w_v4.py:364] Denominator (in average) : w_0 = -0.2834917902946472 

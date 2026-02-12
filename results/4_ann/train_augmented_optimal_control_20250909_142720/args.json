@@ -1,0 +1,16 @@
+{
+    "config_train": "/mnt/nfs/nrdata02-users-data/pham/optimal_control/config/0_4_train_a_merge.json",
+    "w_config": "./results/2_wnn/train_value_20250731_101420",
+    "u_config": "./results/1_unn/train_u_20250716_102610",
+    "results_dir": "/mnt/nfs/nrdata02-users-data/pham/optimal_control/results/4_ann",
+    "seed": 197,
+    "log_level": "INFO",
+    "save_every": 100,
+    "config_portfolio": "./config/0_0_portfolio.json",
+    "config_simulator": "./config/0_0_dist.json",
+    "p_range": 5.0,
+    "a_limit": -5.0,
+    "lr": 0.001,
+    "config_unn": "/mnt/nfs/nrdata02-users-data/pham/optimal_control/results/1_unn/train_u_20250716_102610",
+    "config_wnn": "/mnt/nfs/nrdata02-users-data/pham/optimal_control/results/2_wnn/train_value_20250731_101420"
+}

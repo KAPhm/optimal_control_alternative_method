@@ -1,0 +1,25 @@
+{
+    "n_hidden_layers": 7,
+    "n_neuron": 128,
+    "n_samples": 4096,
+    "n_epoch": 3000,
+    "batch_size": 128,
+    "lr": 0.001,
+    "milestones": [
+        250,
+        500,
+        1000,
+        1500,
+        2000,
+        2250,
+        2500,
+        2750
+    ],
+    "weight_decay": 4e-08,
+    "gamma": 0.5,
+    "gamma_expo": 0.9996,
+    "gamma_step": 0.25,
+    "ind_resample_initial_state": false,
+    "ind_resample_brownian": false,
+    "checkpoint_path": "results/from_scratch/5_vnn/debug/train_V_rebound_v2_20250917_192723/checkpoints/checkpoint_best.pth"
+}

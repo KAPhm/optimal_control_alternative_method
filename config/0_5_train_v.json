@@ -1,0 +1,15 @@
+{
+    "n_hidden_layers": 6,
+    "n_neuron": 256,
+    "n_samples": 100,
+    "n_epoch": 200,
+    "batch_size": 32,
+    "lr": 0.005,
+    "milestones": [100, 150],
+    "weight_decay": 0.00000004,
+    "gamma_step": 0.5,
+    "gamma_expo": 0.9975,
+    "ind_resample_initial_state": false,
+    "ind_resample_brownian": false,
+    "checkpoint_path": null
+}

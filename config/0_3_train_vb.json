@@ -1,0 +1,12 @@
+{
+    "n_hidden_layers": 4,
+    "n_neuron": 64,
+    "n_samples": 1920,
+    "n_epoch": 200,
+    "batch_size": 8192,
+    "lr": 0.001,
+    "milestones": [100, 170],
+    "weight_decay": 0.00000004,
+    "gamma": 0.5,
+    "checkpoint_path": null
+}

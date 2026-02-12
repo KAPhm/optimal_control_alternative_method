@@ -1,0 +1,18 @@
+{
+    "n_hidden_layers": 3,
+    "n_neuron": 32,
+    "n_samples": 16384,
+    "batch_size": 4096,
+    "n_epoch": 1000,
+    "k": 256,
+    "lr": 1.0,
+    "milestones": [
+        99999999
+    ],
+    "gamma_step": 0.5,
+    "gamma_expo": 0.9966,
+    "margin": 0.001,
+    "ind_resample_initial_state": false,
+    "ind_resample_brownian": false,
+    "checkpoint_path": null
+}
