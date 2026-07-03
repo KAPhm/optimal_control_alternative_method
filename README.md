@@ -1,13 +1,13 @@
 # Introduction
 
-This repository is an illustration for the implementation of the training algorithm proposed in the article *Optimal Control with Expectation Constraint in a Smooth Boundary Case* by Bruno BOUCHARD, Kim-Anh PHAM, and Lucas GNECCO HEREDIA. 
+This repository is an illustration for the implementation of the alternative training algorithm proposed in Section 4.4 of the article *Optimal Control with Expectation Constraint in a Smooth Boundary Case* by Bruno BOUCHARD, Kim-Anh PHAM, and Lucas GNECCO HEREDIA. 
 
 # Organization of the repository
 In this repository, one can find 
 - The documentation of this implementation can be found in the folder `docs`, and we refer to Sections 2 and 4 of the associated paper for a detailed description of the theoretical mathematical framework and of the algorithm. 
 - The set of `python` scripts used for training. These scripts begins with a number, either `0` for pre-training scripts, `1` for training scripts, `2` for testing scripts, and `3` for visualization scripts. 
-- An example of configuration for training the algorithm and our training results can be found in the folders `config` and `results`, respectively. These are the parameters and results shown in the article. 
-
+- An example of configuration for training the algorithm and our training results can be found in the folders `config` and `results`, respectively.
+  
 # Environment requirements
 Install `conda`, then create an environments using the following command
 
